@@ -41,6 +41,33 @@ namespace ConsoleApp1
 
             #endregion
             #endregion
+
+            #region Part 02 : Practical (Extending the Movie Ticket Booking System)
+
+            //// 1. Create a Cinema and open it
+            //Cinema cinema = new Cinema();
+            //cinema.OpenCinema();
+
+            //// 2. Create one of each ticket type (hardcoded data)
+            //StandardTicket standard = new StandardTicket("C-10","Interstellar", 120m);
+            //VIPTicket vip = new VIPTicket(true,"Dune", 250m);
+            //IMAXTicket imax = new IMAXTicket(false, "Dune", 180m);
+
+            //// Add them to the cinema
+            //cinema.AddTicket(standard);
+            //cinema.AddTicket(vip);
+            //cinema.AddTicket(imax);
+
+            //// 3. Print all tickets
+            //cinema.PrintAllTickets();
+            //Console.WriteLine();
+
+            //Console.WriteLine($"Booking Ref 1: {standard.BookingRef}");
+            //Console.WriteLine($"Booking Ref 2: {vip.BookingRef}");
+            //// 4. Close the cinema
+            //cinema.CloseCinema();
+
+            #endregion
         }
     }
 }
