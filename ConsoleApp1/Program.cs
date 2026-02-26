@@ -25,6 +25,21 @@ namespace ConsoleApp1
 
             #endregion
 
+            #region Question02
+            //Answer the following questions about access modifiers and sealed:
+
+            //a) A parent class has a protected field.Can a child class in a different assembly access it? What about through an object instance from outside?
+            //Yes,a child class can accsess it. No,the instance can access it because protected feild behave as private insite the child class
+            //b) What is the difference between protected internal and private protected?
+            //Without inheritance, private protected behave like private, and protected internal behaves like internal
+
+            //c) What does the sealed keyword do when applied to a class?
+            //What about when applied to a method?
+            //CallConvThiscall class can not be inherited
+            //d) Can you create an object from a sealed class using new? Why or why not?
+            //yes,i can.
+
+            #endregion
             #endregion
         }
     }
